@@ -1,0 +1,129 @@
+/*
+File: style.css
+GUI Assignment: Creating Your First Web Page
+Sean Mclaughlin, UMass Lowell Computer Science,
+Sean_Mclaughlin1@student.uml.edu
+Copyright (c) 2023 by Sean Mclaughlin. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by SM on Sept 20, 2023
+This is all the styling for the index.html file for the first GUI 1 homwork assignment
+*/
+
+/* General rules for the whole site */
+* {
+  	font-family: Tahoma, Roboto, sans-serif;
+  	margin: 0;
+  	padding: 0;
+	background-color: #EFFAFD;
+}
+
+body {
+	color: #050640;
+}
+
+h1 {
+  	font-size: 3em;
+  	text-align: center;
+	background-color: #FFFFFF;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p, li {
+	font-size: 1.2em;
+	line-height: 150%;
+	color: #050640;
+}
+
+/* Head section */
+#header {
+	background-color: #FFFFFF;
+	padding: 20px;
+	border-bottom: 1px solid #050640;
+}
+
+/* Main content section */
+main {
+  	margin: 30px;
+}
+
+.split {
+	margin: 15px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.split-main {
+	width: 40%;
+}
+
+ul {
+	margin-top: 10px;
+}
+
+#paragraphArea {
+	width: 50%;
+}
+
+table {
+	border: solid;
+	text-align: center;
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+tr, th, td {
+	border: solid;
+	padding: 5px;
+	font-size: 1.2em;
+}
+
+/* All button styling */
+button {
+	/* background-color: ; */
+	text-align: center;
+	font-size: 1.5em;
+	border: 3px solid #347EDD;
+	color: #347EDD;
+	padding: 12px 18px;
+	border-radius: 8px;
+	height:fit-content;
+}
+
+button:hover {
+	background-color: lightgray;
+}
+
+#photoArea {
+	width: 50%;
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Footer Section */
+footer p {
+	width: 100%;
+	bottom: 0;
+	position: relative;
+	height: 70px;
+	text-align: center;
+	background-color: #050640;
+	color: #EFFAFD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
